@@ -8,7 +8,7 @@ This repository contains code for our TIP (Transactions on Image Processing) pap
 Human motion segmentation has great potential in real world applications. Conventional segmentation approaches cluster data with no guidance from prior knowledge, which could easily cause unpredictable segmentation output and decrease the performance. To this end, we seek to improve the human-motion segmentation performance by fully utilizing pre-existing well-labeled source data. Specifically, we design a new transfer subspace clustering method for motion segmentation with a weighted rank constraint. Specifically, our proposed model obtains representations of both source and target sequences by mitigating their distribution divergence, which allows for more effective knowledge transfer to the target. To guide new representation learning, we designed a novel sequential graph to preserve temporal information residing in both the source and target. Furthermore, a weighted low-rank constraint is added to enforce the graph regularizer and uncover clustering structures within data. Experiments are evaluated on four human motion databases, which prove the enhanced performance and increased stability of our model compared to state-of-the-art baselines.
 
 ## Running the code
-The code is MATLAB code works in Ubuntu system. Windows system may need minor revision in the folder name. Direct diwnload the code and run TSS_demo.m.
+The code is MATLAB code works in Ubuntu system. Windows system may need minor revision in the folder name. Direct diwnload the code and run LTS_demo.m.
 
 This repository contains two datasets, Weizmann dataset and Keck dataset, which are extracted HOG feature frame by frame. The features are 324-dimension feature metrix.
 
@@ -18,7 +18,7 @@ Welcome to send us Emails if you have any questions about the code and our work 
 * **Zhengming Ding** [Website](http://allanding.net/)
 * **Yun Raymond Fu** [Website](http://www1.ece.neu.edu/~yunfu/)
 
-## Papers
+## Citation
 This code is corresponding to our TIP 2019 paper below:
 ```
 @ARTICLE{Seg_Lichen_TIP18, 
@@ -32,8 +32,7 @@ This code is corresponding to our TIP 2019 paper below:
   doi={10.1109/TIP.2018.2870945},
 }
 ```
-
-This work is our AAAI 2018 extension work: [Learning Transferable Subspace for Human Motion Segmentation](https://github.com/wanglichenxj/TSS_Action_Segmentation). Compared with 
+This work is our AAAI 2018 extension work: [Learning Transferable Subspace for Human Motion Segmentation](https://github.com/wanglichenxj/TSS_Action_Segmentation). A low-rank constraint is designed to further reconstruct the temporal data structure and improve the performance.
 ```
 @inproceedings{TSS_Lichen_AAAI18,
   author = {Lichen Wang and Zhengming Ding and Yun Fu},
