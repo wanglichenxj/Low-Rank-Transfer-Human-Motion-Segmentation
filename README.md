@@ -1,5 +1,5 @@
 # LTS Action Segmentation
-This repository contains code for our TIP (Transactions on Image Processing) paper: Low-Rank Transfer Human Motion Segmentation (LTS). LTS is a journal extension on our previous work, Learning Transferable Subspace for Human Motion Segmentation, which proposed a novel low-rank constraint associate with the temporal constraint for human action segmentation in time space. Experimental results demonstrates the effectiveness and high performance of the proposed model.
+This repository contains code for our TIP (Transactions on Image Processing) paper: [Low-Rank Transfer Human Motion Segmentation](https://github.com/wanglichenxj/LTS_Action_Segmentation/blob/master/Presentation/LTS_Action_Segmentation_TIP18_Lichen.pdf) (LTS). LTS is a journal extension on our previous work: [Learning Transferable Subspace for Human Motion Segmentation](https://github.com/wanglichenxj/TSS_Action_Segmentation). LTS proposed a novel low-rank constraint associate with the temporal constraint for human action segmentation in time space. Experimental results demonstrates the effectiveness and high performance of the proposed model.
 
 <div align="center">
     <img src="Presentation/LTS_framework.png", width="800">
@@ -42,8 +42,3 @@ This work is our AAAI 2018 extension work: [Learning Transferable Subspace for H
 }
 ```
 Please cite our paper if you like or use our work for your research, thank you very much!
-
-
-
-
-
