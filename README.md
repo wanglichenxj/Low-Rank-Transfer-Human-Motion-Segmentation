@@ -21,7 +21,7 @@ Welcome to send us Emails if you have any questions about the code and our work 
 ## Citation
 This code is corresponding to our TIP 2019 paper below:
 ```
-@ARTICLE{Seg_Lichen_TIP18, 
+@ARTICLE{LTS_Lichen_TIP18, 
   author={Lichen Wang and Zhengming Ding and Yun Fu}, 
   journal={IEEE Transactions on Image Processing}, 
   title={Low-Rank Transfer Human Motion Segmentation}, 
