@@ -10,7 +10,7 @@ Human motion segmentation has great potential in real world applications. Conven
 ## Running the code
 The code is MATLAB code works in Ubuntu system. Windows system may need minor revision in the folder name (e.g., the folder name should revise from xx/xx (Linux version) to xx\xx (Window version)). Directly download the code and run LTS_demo.m, the cold should works well and report the similar performance as reported in our paper. Feel free to send us emails if you have any difficulties running the code.
 
-This repository contains two datasets, Weizmann dataset and Keck dataset, which are extracted HOG feature frame by frame. The features are 324-dimension feature metrix.
+This repository contains four datasets, Weizmann dataset, Keck dataset, MAD dataset, and UT-Interaction dataset, which are extracted HOG feature frame by frame. The features are 324-dimension feature metrix.
 
 ## Authors
 Welcome to send us Emails if you have any questions about the code and our work :-)
